@@ -3,23 +3,15 @@
 ## Folders
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
+├── segnet.py
+├── train.py
+├── drive.py
+├── test 
+│   ├── test.py
+│   └── result.png
+├── labelizer.py
+├── prepare_label.py
 ├── README.md
-├── package.json
-├── bower.json (if using bower)
 └── .gitignore
 ```
 ## Run
