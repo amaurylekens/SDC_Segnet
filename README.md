@@ -50,4 +50,8 @@ The purpose of the segmentation is to assign the pixels belonging to the route t
 
 ![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/segnet.png)
 
+The network input is an rgb image and the output is an image where each pixel is assigned to a class.
+
 ### Labelization
+
+
