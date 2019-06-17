@@ -55,7 +55,9 @@ The purpose of the segmentation is to assign the pixels belonging to the route t
 
 The algorithm used is an encoder-decoder neuron network. The input of the network is an rgb image and the output is an image where each pixel is assigned to a class. 
 
-The encoder is composed of several layers of convolutions, normalizations and pooling. The decoder has an inverse architecture and the pooling layers are replaced by oversampling layers.
+The encoder is composed of several layers of convolutions, normalizations and pooling. The decoder has an inverse architecture and the pooling layers are replaced by upsampling layers.
+
+The goal is to use this architecture in combination with a CNN to predict the direction of the car in the Udacity simulator.
 
 ### Labelization
 
@@ -68,6 +70,11 @@ To train the model, one needs a dataset containing images with their labeled ver
 * Find the first white dots on the left and right from the middle line
 * Find the best regressions for each edge from the find points
 
+### Result
+
+Training on 80 segmented images and with 7 epochs : 
+
+![result](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/labelization.png)
 
 ## References
 

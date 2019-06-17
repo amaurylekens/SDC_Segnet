@@ -8,7 +8,6 @@ def compute_output_img(output, size, n_labels):
 	w = size[1]
 
 	output = output.reshape((h, w, n_labels))
-	print(result)
 	label = np.zeros([h, w], dtype=np.uint8) 
 
 	for i in range(h):

@@ -1,5 +1,5 @@
 from prepare_label import *
-from Segnet import Segnet
+from segnet import Segnet
 
 data, label = prep_data((256,256), 5, 2)
 
