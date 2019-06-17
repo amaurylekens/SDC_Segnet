@@ -1,5 +1,5 @@
 from segnet import Segnet
-from plot_result import plot_result
+from compute_output_img import compute_output_img
 import cv2
 import socketio
 import eventlet
@@ -44,7 +44,7 @@ def telemetry(sid, data):
 		w = image.shape[1]
 
 		prediction = segnet.predict()
-		image_output = plot_result(prediction, (h,w), 2)
+		image_output = compute_output_img(prediction, (h,w), 2)
 
 	    cv2.imshow('frame',image_output)
     	
