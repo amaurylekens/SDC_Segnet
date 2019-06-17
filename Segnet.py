@@ -138,12 +138,12 @@ class Segnet:
 		nb_epoch = 50
 		batch_size = 18
 		history = self.nn.fit(train_data, train_label, batch_size=batch_size, nb_epoch=nb_epoch, verbose=1)
-		autoencoder.save_weights('model_weight.hdf5')
+		self.nn.save_weights('model_weight.hdf5')
 
-	def predict(self):
+	def predict(self, data):
 
-		autoencoder.load_weights('model_weight.hdf5')
-		output = autoencoder.predict_proba(test_data, verbose=0)
+		self.nn.load_weights('model_weight.hdf5')
+		output = self.nn.predict_proba(data, verbose=0)
 
 
 
