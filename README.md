@@ -42,6 +42,8 @@
 
 ### Segmentation
 
+The purpose of the segmentation is to assign the pixels belonging to the route to one class and the other pixels to another class.
+
 ![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/segnet.png)
 
 ### Labelization
