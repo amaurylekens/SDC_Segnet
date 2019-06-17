@@ -56,11 +56,11 @@ The network input is an rgb image and the output is an image where each pixel is
 
 To train the model, one needs a dataset containing images with their labeled version. To achieve this, we use the labelizer.py function, this function uses image processing techniques to label an image. The main steps are:
 
+![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/labelization.png)
+
 * Perform two edge detections: a sensitive and a less sensitive
 * Select the upper part of the sensitive and lower detection of the less sensitive and paste them
 * Find the first white dots on the left and right from the middle line
 * Find the best regressions for each edge from the find points
-
-![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/labelization.png)
 
 
