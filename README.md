@@ -14,6 +14,7 @@ The algorithm used is an encoder-decoder neuron network.
 │   ├── test.py
 │   └── result.png
 ├── prepare_label.py
+├── compute_output_img.py
 ├── live_segmentation.py
 ├── README.md
 └── .gitignore
@@ -23,7 +24,9 @@ The algorithm used is an encoder-decoder neuron network.
 * train.py : fit the weight of the network and store it
 * labelizer.py : function which help to create the label from a set of image
 * prepare_label.py : functions which prepare data and label for the training
+* compute_output_img.py : function which transform the output of the network in segmented image
 * live_segmentation.py : road segmentation in live with the udacity simulator
+* test.py : test the model on new image
 
 ## Run
 
