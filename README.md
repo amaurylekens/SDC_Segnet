@@ -34,7 +34,7 @@ The algorithm used is an encoder-decoder neuron network.
 ### Live segmentation
 
 1. Run the Udacity simulator and go in the self-driving mode
-2. Run the drive.py file
+2. Run the live_segmentation.py file
 
 ## Dependencies
 
