@@ -2,8 +2,6 @@
 
 This repository contains the files necessary to realize the semantic segmentation of an image to identify the shape of a road. The project uses the Udacity autonomous car simulator.
 
-The algorithm used is an encoder-decoder neuron network.
-
 ## Folders
 
 ```bash
@@ -43,11 +41,11 @@ The algorithm used is an encoder-decoder neuron network.
 
 ## Dependencies
 
-* opencv
-* tensorflow
-* keras
+* keras, tensorflow, scikit-learn, openCV
+* pandas, numpy, matplotlib, base64, io
+* socketio, eventlet
 
-## Explications
+## Algorithme
 
 ### Segmentation
 
@@ -55,7 +53,7 @@ The purpose of the segmentation is to assign the pixels belonging to the route t
 
 ![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/segnet.png)
 
-The network input is an rgb image and the output is an image where each pixel is assigned to a class.
+The algorithm used is an encoder-decoder neuron network. The input of the network is an rgb image and the output is an image where each pixel is assigned to a class. 
 
 ### Labelization
 
