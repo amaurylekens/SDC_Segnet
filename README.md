@@ -32,12 +32,14 @@ The algorithm used is an encoder-decoder neuron network.
 
 ### Train
 
-1. Run the train.py file
+1. Prepare a folder with images captured with the Udacity simulator
+2. Run the train.py file
 
 ### Live segmentation
 
 1. Run the Udacity simulator and go in the self-driving mode
 2. Run the live_segmentation.py file
+3. Drives the car (there is no self-driving mode for the moment)
 
 ## Dependencies
 
