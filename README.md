@@ -69,3 +69,7 @@ To train the model, one needs a dataset containing images with their labeled ver
 * Find the best regressions for each edge from the find points
 
 
+## References
+
+* https://medium.com/coinmonks/semantic-segmentation-deep-learning-for-autonomous-driving-simulation-part-1-271cd611eed3
+* https://arxiv.org/pdf/1511.00561.pdf
