@@ -14,6 +14,7 @@ This repository contains the files necessary to realize the semantic segmentatio
 ├── prepare_label.py
 ├── compute_output_img.py
 ├── live_segmentation.py
+├── model_weight.hdf5
 ├── README.md
 └── .gitignore
 ```
@@ -25,6 +26,7 @@ This repository contains the files necessary to realize the semantic segmentatio
 * compute_output_img.py : function which transform the output of the network in segmented image
 * live_segmentation.py : road segmentation in live with the udacity simulator
 * test.py : test the model on new image
+* model_weight.hdf5 : store the weight of the trained model
 
 ## Run
 
@@ -74,7 +76,7 @@ To train the model, one needs a dataset containing images with their labeled ver
 
 Training on 80 segmented images and with 7 epochs : 
 
-![result](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/labelization.png)
+![result](https://github.com/amaurylekens/SDC_Segnet/blob/master/test/result.png)
 
 ## References
 
