@@ -1,5 +1,9 @@
 # Encoder-Decoder for road Segmentation
 
+This repository contains the files necessary to realize the semantic segmentation of an image to identify the shape of a road. The project uses the Udacity autonomous car simulator.
+
+The algorithm used is an encoder-decoder neuron network.
+
 ## Folders
 
 ```bash
