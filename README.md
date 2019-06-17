@@ -76,7 +76,9 @@ To train the model, one needs a dataset containing images with their labeled ver
 
 Training on 80 segmented images and with 7 epochs : 
 
-![result](https://github.com/amaurylekens/SDC_Segnet/blob/master/test/result.png)
+<p align="center">
+  <img src="https://github.com/amaurylekens/SDC_Segnet/blob/master/test/result.png"/>
+</p>
 
 ## References
 
