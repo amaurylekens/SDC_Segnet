@@ -37,3 +37,11 @@
 * opencv
 * tensorflow
 * keras
+
+## Explications
+
+### Segmentation
+
+![segnet][./images/segnet.png]
+
+### Labelization
