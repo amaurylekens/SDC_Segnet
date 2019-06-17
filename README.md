@@ -55,6 +55,8 @@ The purpose of the segmentation is to assign the pixels belonging to the route t
 
 The algorithm used is an encoder-decoder neuron network. The input of the network is an rgb image and the output is an image where each pixel is assigned to a class. 
 
+The encoder is composed of several layers of convolutions, normalizations and pooling. The decoder has an inverse architecture and the pooling layers are replaced by oversampling layers.
+
 ### Labelization
 
 To train the model, one needs a dataset containing images with their labeled version. To achieve this, we use the labelizer.py function, this function uses image processing techniques to label an image. The main steps are:
