@@ -42,6 +42,6 @@
 
 ### Segmentation
 
-![segnet][./images/segnet.png]
+![segnet](https://github.com/amaurylekens/SDC_Segnet/blob/master/images/segnet.png)
 
 ### Labelization
