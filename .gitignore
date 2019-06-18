@@ -2,3 +2,7 @@ remove_file.py
 rename.py
 util.py
 training/
+test/stream.py
+test/IMG/
+test/predict/
+test/images/

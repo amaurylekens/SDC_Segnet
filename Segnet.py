@@ -141,11 +141,12 @@ class Segnet:
 		self.nn.save_weights('model_weight.hdf5')
 
 	def predict(self, data):
-
-		self.nn.load_weights('model_weight.hdf5')
 		output = self.nn.predict_proba(data, verbose=0)
 
 		return output
+
+	def load_weight(self):
+		self.nn.load_weights('model_weight.hdf5')
 
 
 
