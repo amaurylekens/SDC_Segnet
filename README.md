@@ -85,7 +85,7 @@ The model available on this repository has **already been trained** with images 
 
 ## Result
 
-Training on 80 segmented images with 7 epochs : 
+Training on 140 segmented images with 25 epochs : 
 
 <p align="center">
   <img src="https://github.com/amaurylekens/SDC_Segnet/blob/master/test/result.png"/>
