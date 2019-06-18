@@ -5,3 +5,4 @@ training/
 test/stream.py
 test/IMG/
 test/predict/
+test/images/
